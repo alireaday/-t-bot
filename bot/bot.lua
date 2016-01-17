@@ -3,7 +3,7 @@ package.path = package.path .. ';.luarocks/share/lua/5.2/?.lua'
 package.cpath = package.cpath .. ';.luarocks/lib/lua/5.2/?.so'
 
 require("./bot/utils")
-
+۹
 VERSION = '0.14.6'
 
 -- This function is called when tg receive a msg
@@ -45,7 +45,7 @@ function msg_valid(msg)
   if msg.out then
     print('\27[36mNot valid: msg from us\27[39m')
     return false
-  end
+  endـ
 
   -- Before bot was started
   if msg.date < now then
@@ -122,7 +122,7 @@ function match_plugins(msg)
     match_plugin(plugin, name, msg)
   end
 end
-
+ی
 -- Check if plugin is on _config.disabled_plugin_on_chat table
 local function is_plugin_disabled_on_chat(plugin_name, receiver)
   local disabled_chats = _config.disabled_plugin_on_chat
@@ -237,7 +237,7 @@ function create_config( )
 end
 
 function on_our_id (id)
-  our_id = id
+  our_id =88900862
 end
 
 function on_user_update (user, what)
